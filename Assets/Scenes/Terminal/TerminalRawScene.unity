@@ -133,7 +133,6 @@ GameObject:
   m_Component:
   - component: {fileID: 9394471}
   - component: {fileID: 9394473}
-  - component: {fileID: 9394472}
   m_Layer: 6
   m_Name: DarkAreaVolumeA
   m_TagString: Untagged
@@ -156,23 +155,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1890990766}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &9394472
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9394470}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 0
-  priority: 70.96
-  blendDistance: 3
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: 1beb731b8b5fc434c974ac87889eab21, type: 2}
 --- !u!65 &9394473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2687,7 +2669,6 @@ GameObject:
   m_Component:
   - component: {fileID: 394182508}
   - component: {fileID: 394182510}
-  - component: {fileID: 394182509}
   m_Layer: 6
   m_Name: DestinationVolume
   m_TagString: Untagged
@@ -2710,23 +2691,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1636404061}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &394182509
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 394182507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 0
-  priority: 2
-  blendDistance: 1
-  weight: 0
-  sharedProfile: {fileID: 11400000, guid: c7d86e1900f960241820e8349acf3497, type: 2}
 --- !u!65 &394182510
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3894,7 +3858,6 @@ GameObject:
   m_Component:
   - component: {fileID: 650108521}
   - component: {fileID: 650108523}
-  - component: {fileID: 650108522}
   m_Layer: 0
   m_Name: RoomVolume
   m_TagString: Untagged
@@ -3917,23 +3880,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2050461559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &650108522
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 650108520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 0
-  priority: 2
-  blendDistance: 5
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: 21c5b28a3f80a1c438ff81a35ecf6ee7, type: 2}
 --- !u!65 &650108523
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4337,7 +4283,6 @@ GameObject:
   m_Component:
   - component: {fileID: 715014083}
   - component: {fileID: 715014085}
-  - component: {fileID: 715014084}
   m_Layer: 0
   m_Name: DestinationVolume
   m_TagString: Untagged
@@ -4360,23 +4305,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 737529738}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &715014084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 715014082}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 0
-  priority: 2
-  blendDistance: 4
-  weight: 0
-  sharedProfile: {fileID: 11400000, guid: d0ca6400681eee44fafc379de6c273b5, type: 2}
 --- !u!65 &715014085
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5897,7 +5825,6 @@ GameObject:
   m_Component:
   - component: {fileID: 986368242}
   - component: {fileID: 986368244}
-  - component: {fileID: 986368243}
   m_Layer: 0
   m_Name: RoomVolume
   m_TagString: Untagged
@@ -5920,23 +5847,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1636404061}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &986368243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 986368241}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 0
-  priority: 2
-  blendDistance: 5
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: 21c5b28a3f80a1c438ff81a35ecf6ee7, type: 2}
 --- !u!65 &986368244
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6111,8 +6021,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: OasisScene
-  m_CurrentVolume: {fileID: 1911712333}
-  m_DestinationVolume: {fileID: 715014084}
+  m_CurrentVolume: {fileID: 0}
+  m_DestinationVolume: {fileID: 0}
   m_SkipLoading: 0
   ControllPanel: {fileID: 1487997530}
   screen: {fileID: 1792553109335747704}
@@ -6127,7 +6037,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1050891274}
   - component: {fileID: 1050891276}
-  - component: {fileID: 1050891275}
   m_Layer: 6
   m_Name: DestinationVolume
   m_TagString: Untagged
@@ -6150,23 +6059,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2050461559}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1050891275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1050891273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 0
-  priority: 2
-  blendDistance: 1
-  weight: 0
-  sharedProfile: {fileID: 11400000, guid: 9d0e070cb804e6a499eb01365e82706d, type: 2}
 --- !u!65 &1050891276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6366,7 +6258,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1118218364}
   - component: {fileID: 1118218366}
-  - component: {fileID: 1118218365}
   m_Layer: 6
   m_Name: DarkAreaVolumeB
   m_TagString: Untagged
@@ -6389,23 +6280,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1890990766}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1118218365
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118218363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 0
-  priority: 1
-  blendDistance: 3
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: 1beb731b8b5fc434c974ac87889eab21, type: 2}
 --- !u!65 &1118218366
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7372,7 +7246,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1301824148}
-  - component: {fileID: 1301824149}
   m_Layer: 0
   m_Name: CinematicVolume
   m_TagString: Untagged
@@ -7395,23 +7268,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 3547149924374491350}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1301824149
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301824147}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 1
-  priority: 0
-  blendDistance: 0
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: b62413aeefabaaa41a4b5a71dd7ae1ac, type: 2}
 --- !u!1 &1305717444
 GameObject:
   m_ObjectHideFlags: 0
@@ -8572,8 +8428,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SceneName: GardenScene
-  m_CurrentVolume: {fileID: 650108522}
-  m_DestinationVolume: {fileID: 1050891275}
+  m_CurrentVolume: {fileID: 0}
+  m_DestinationVolume: {fileID: 0}
   m_SkipLoading: 0
   ControllPanel: {fileID: 1649972010}
   screen: {fileID: 166933156}
@@ -12053,7 +11909,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1911712332}
   - component: {fileID: 1911712334}
-  - component: {fileID: 1911712333}
   m_Layer: 0
   m_Name: RoomVolume
   m_TagString: Untagged
@@ -12076,23 +11931,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 737529738}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1911712333
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1911712331}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_IsGlobal: 0
-  priority: 2
-  blendDistance: 4
-  weight: 1
-  sharedProfile: {fileID: 11400000, guid: 21c5b28a3f80a1c438ff81a35ecf6ee7, type: 2}
 --- !u!65 &1911712334
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -15621,7 +15459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SceneName: HubScene
   m_CurrentVolume: {fileID: 0}
-  m_DestinationVolume: {fileID: 650108522}
+  m_DestinationVolume: {fileID: 0}
   m_SkipLoading: 1
   ControllPanel: {fileID: 0}
   screen: {fileID: 0}
